@@ -13,7 +13,7 @@ The following code shows the way that a remote script can be executed once a spe
 
 ```javascript
 var dash_button = require('node-dash-button'),
-    dash = dash_button('xx:xx:xx:xx:xx:xx'), // replace xx:xx:xx:xx:xx:xx with your Dash Button's hardware address
+    dash = dash_button('xx:xx:xx:xx:xx:xx'), // replace xx:xx:xx:xx:xx:xx with your Dash Button's one
     exec = require('child_process').exec;
 
 dash.on('detected', function() {
