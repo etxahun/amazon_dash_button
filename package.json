@@ -1,0 +1,20 @@
+{
+  "name": "amazon_dash_button",
+  "version": "1.0.0",
+  "description": "Amazon Dash Button based IoT button.",
+  "main": "index.js",
+  "scripts": {
+    "busca": "node node_modules/node-dash-button/bin/findbutton",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Amazon",
+    "Dash-Button",
+    "IoT"
+  ],
+  "author": "NESB",
+  "license": "MIT",
+  "dependencies": {
+    "node-dash-button": "^0.6.1"
+  }
+}
