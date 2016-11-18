@@ -3,7 +3,7 @@ var dash_button = require('node-dash-button'),
     exec = require('child_process').exec;
 
 dash.on('detected', function() {
-    exec('sh <ruta_script_sh>', function(error, stdout, stderr) {
+    exec('sh <script_path>', function(error, stdout, stderr) {
         console.log('stdout: ' + stdout);
         console.log('stderr: ' + stderr);
         if (error !== null) {
