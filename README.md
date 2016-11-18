@@ -13,7 +13,7 @@ Other option is to include the following line in "package.json":
 ```json
     {
       "scripts": {
-         "busca": "node node_modules/node-dash-button/bin/findbutton"
+         "searchbutton": "node node_modules/node-dash-button/bin/findbutton"
       }
     }
 ```
@@ -21,7 +21,7 @@ Other option is to include the following line in "package.json":
 And execute the following command:
 
 ```
-sudo npm run busca
+sudo npm run searchbutton
 ```
 
 ## Dash Button triggered script execution
