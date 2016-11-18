@@ -1,5 +1,5 @@
 # amazon_dash_button
-[Node-dash-button](https://www.npmjs.com/package/node-dash-button) based IoT button example for remote script execution.
+[Node-dash-button](https://www.npmjs.com/package/node-dash-button) module based IoT button example for remote script execution.
 
 ## Find Your Dash Buttons
 In order to find your Dash Button's MAC address you will have to execute the following command:
