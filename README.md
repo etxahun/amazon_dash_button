@@ -1,6 +1,14 @@
 # amazon_dash_button
 [Node-dash-button](https://www.npmjs.com/package/node-dash-button) module based IoT button example for scripts execution.
 
+## Installation Instructions
+The following commands installs [libcap](http://www.tcpdump.org/) and [Node-dash-button](https://www.npmjs.com/package/node-dash-button) module:
+```
+# dependancy on libpcap for reading packets 
+$ sudo apt-get install libpcap-dev
+$ npm install node-dash-button
+```
+
 ## Find Your Dash Buttons
 [Node-dash-button](https://www.npmjs.com/package/node-dash-button) includes a "findbutton" function for Dash-Buttons discovery.
 
